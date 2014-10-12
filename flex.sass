@@ -248,7 +248,7 @@
 //
 // http://w3.org/tr/css3-flexbox/#flex-property
 
-=flex($fg: 1, $fs: null, $fb: null)
+=flex($fg: 0, $fs: 1, $fb: auto)
   -webkit-box-flex: $fg
   -webkit-flex: $fg $fs $fb
   -moz-box-flex: $fg
@@ -393,6 +393,6 @@
 	+align-content($content) // align self across main-axis
 	+align-self($self)       // align self across cross-axis
 
-// super shorthand!
+// ultra shorthand!
 =fa($properties...)
 	+flex-align($properties...)
