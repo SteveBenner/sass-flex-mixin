@@ -23,8 +23,13 @@ With help from:
 
 A version compatible with Compass is provided by @trinonsense, on the compass branch.
 
+Licensed under MIT.
+
 ---
-### TODO:
+### Developer Note:
+***The only thing different about this fork is the addition of some SWEET convenience methods.***
+
+##### TODO
 - create bower component
 - re-document (YARD syntax)
 - update tests
